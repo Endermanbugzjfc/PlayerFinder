@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endermanbugzjfc\PlayerFinder;
+namespace Endermanbugzjfc\PlayerFinder\Plugin;
 
 use pocketmine\plugin\PluginBase;
 
