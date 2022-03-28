@@ -1,6 +1,6 @@
 {
   "name": "endermanbugzjfc/playerfinder",
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "require": {
     "pocketmine/pocketmine-mp": "^4.0",
