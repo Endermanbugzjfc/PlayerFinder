@@ -12,4 +12,12 @@ final class Parameter
     public int $maxTargets = 0;
 
     public string $searchBarDefaultValue = "";
+
+    /**
+     * @var string[]
+     */
+    public array $targetTypes = [
+        "minecraft:player"
+    ];
+    public bool $targetTypesWhitelist = true;
 }
