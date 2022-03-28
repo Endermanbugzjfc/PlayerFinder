@@ -42,6 +42,8 @@ final class MainClass extends PluginBase
 
     private function loadDatabase() : void
     {
+        // I use logger for only this part is because it usually takes a while to establish the connection if database type is MySQL.
+        // Just want to let user know their server is not broken or something.
         $log = $this->getLogger();
         $databaseConfigFile = "database.yml";
         $databaseConfigPath = $this->getDataFolder() . $databaseConfigFile;
