@@ -5,7 +5,8 @@
   "require": {
     "pocketmine/pocketmine-mp": "^4.0",
     "vecnavium/formsui": "^1.1",
-    "endermanbugzjfc/configstruct": "2.0.0-BETA2"
+    "endermanbugzjfc/configstruct": "2.0.0-BETA2",
+    "sof3/libasynql": "^4.0"
   },
   "autoload": {
     "psr-4": {
