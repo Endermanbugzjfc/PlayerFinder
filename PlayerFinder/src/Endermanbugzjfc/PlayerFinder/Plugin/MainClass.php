@@ -6,7 +6,7 @@ namespace Endermanbugzjfc\PlayerFinder\Plugin;
 
 use pocketmine\plugin\PluginBase;
 
-final class Loader extends PluginBase
+final class MainClass extends PluginBase
 {
     protected function onEnable() : void
     {
