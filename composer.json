@@ -1,0 +1,14 @@
+{
+  "name": "endermanbugzjfc/playerfinder",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "pocketmine/pocketmine-mp": "^4.0",
+    "vecnavium/formsui": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Endermanbugzjfc\\PlayerFinder\\": "PlayerFinder/src/"
+    }
+  }
+}
