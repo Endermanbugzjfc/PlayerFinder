@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Endermanbugzjfc\PlayerFinder\Plugin;
 
 use Endermanbugzjfc\ConfigStruct\Emit;
+use Endermanbugzjfc\ConfigStruct\Parse;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use poggit\libasynql\DataConnector;
