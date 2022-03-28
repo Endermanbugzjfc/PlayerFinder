@@ -15,6 +15,7 @@ final class PluginConfig
     public string $pageButtonsPosition = "both";
 
     public bool $enableFindPlayerCommand = true;
+    public bool $autoHideCommands = true;
 
     public string $commandName = "findplayer";
     public string $commandDescription = "Find a player on the server.";
