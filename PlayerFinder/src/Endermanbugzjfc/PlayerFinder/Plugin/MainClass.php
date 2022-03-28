@@ -32,6 +32,13 @@ final class MainClass extends PluginBase
         $this->saveResource($databaseConfigFile);
         $databaseConfig = (new Config($databaseConfigPath))->getAll();
         $this->dataConnector = libasynql::create($this, $databaseConfig, $statementMaps);
+        foreach ([
+            "table.player" => [
+            ]
+        ] as $query => $params) {
+            $this->dataConnector->executeGeneric($query, $params);
+        }
+        $this->dataConnector->waitAll();
         $log->info("Completed.");
     }
 
