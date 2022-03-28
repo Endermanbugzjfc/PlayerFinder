@@ -56,6 +56,8 @@ final class MainClass extends PluginBase
         $this->dataConnector = libasynql::create($this, $databaseConfig, $statementMaps);
         foreach ([
             "table.player" => [
+            ],
+            "table.player_favourite_action" => [
             ]
         ] as $query => $params) {
             $this->dataConnector->executeGeneric($query, $params);

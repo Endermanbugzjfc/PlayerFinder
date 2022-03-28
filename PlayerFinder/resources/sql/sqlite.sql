@@ -8,4 +8,13 @@ CREATE TABLE IF NOT EXISTS playerfinder_player(
 	PRIMARY KEY (uuid)
 );
 -- #	}
+-- #	{ player_favourite_action
+CREATE TABLE IF NOT EXISTS playerfinder_player_favourite_action(
+	uuid BINARY(16) NOT NULL,
+	index BOOLEAN NOT NULL, -- Unsigned tinyint equivalent in SQLite. 256 actions should be enough.
+	action VARCHAR NOT NULL,
+
+	PRIMARY KEY (uuid, action)
+);
+-- #	}
 -- #}
