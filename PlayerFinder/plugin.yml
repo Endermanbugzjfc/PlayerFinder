@@ -1,0 +1,9 @@
+name: PlayerFinder
+author: Endermanbugzjfc
+version: 1.0.0
+api: 4.0.0
+main: Endermanbugzjfc\PlayerFinder\PlayerFinder
+src-namespace-prefix: Endermanbugzjfc\PlayerFinder
+website: https://github.com/Endermanbugzjfc/PlayerFinder
+depend:
+  - InfoAPI
