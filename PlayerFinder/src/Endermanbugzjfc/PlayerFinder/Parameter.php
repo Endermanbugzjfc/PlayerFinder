@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Endermanbugzjfc\PlayerFinder;
+
 final class Parameter
 {
     public bool $showOfflinePlayers = true;
