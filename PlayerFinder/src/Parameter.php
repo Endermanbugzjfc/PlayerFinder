@@ -6,8 +6,6 @@ namespace Endermanbugzjfc\PlayerFinder;
 
 final class Parameter
 {
-    public string $permission = "";
-
     public bool $showOfflinePlayers = true;
 
     public int $minTargets = 0;

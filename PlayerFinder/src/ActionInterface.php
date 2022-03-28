@@ -12,8 +12,17 @@ use pocketmine\player\Player;
  */
 interface ActionInterface
 {
+    /**
+     * Has higher priority than action parameter.
+     * @param T[] $targets
+     */
+    public function shouldShow(
+        Player $player,
+        array $targets
+    ) : bool;
+
     public function getActionParameter(
-    	Player $player
+        Player $player
     ) : Parameter;
 
     /**
