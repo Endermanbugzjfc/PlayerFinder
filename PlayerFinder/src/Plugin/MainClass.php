@@ -73,4 +73,17 @@ final class MainClass extends PluginBase
         }
         unset($this->configObject);
     }
+
+    private static self $instance;
+
+    protected function onLoad() : void
+    {
+        self::$instance = $this;
+    }
+
+    public static function getInstanceForEvent(
+        EventBase $_
+    ) : self {
+        return self::$instance;
+    }
 }
