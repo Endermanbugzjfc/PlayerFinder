@@ -6,7 +6,13 @@ namespace Endermanbugzjfc\PlayerFinder\Plugin;
 
 final class PluginConfig
 {
+    public const PAGE_BUTTONS_POSITION_BOTH = "both";
+    public const PAGE_BUTTONS_POSITION_TOP = "both";
+    public const PAGE_BUTTONS_POSITION_BOTTOM = "bottom";
+
     public bool $samePageForSearchBarAndSelector = false;
+    public int $resultsPerPage = 20;
+    public string $pageButtonsPosition = "both";
 
     public bool $enableFindPlayerCommand = true;
 
